@@ -1,0 +1,40 @@
+body {
+  background-image: url('./assets/oval-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.signup-container,
+.login-container,
+.user-container {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100%;
+}
+
+.signup-left,
+.login-left,
+.user-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signup-left form,
+.login-left form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.signup-right,
+.login-right,
+.user-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
